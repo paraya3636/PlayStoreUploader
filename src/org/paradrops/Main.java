@@ -1,4 +1,4 @@
-package main;
+package org.paradrops;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
