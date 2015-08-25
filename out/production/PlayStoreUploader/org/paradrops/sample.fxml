@@ -1,8 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.layout.GridPane?>
-
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="org.paradrops.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+
+<BorderPane fx:controller="org.paradrops.controller.MainController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <BorderPane prefHeight="63.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <left>
+            <Button fx:id="authButton" mnemonicParsing="false" onAction="#onClickAuthButton" prefHeight="26.0" prefWidth="230.0" text="1. Auth" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Button fx:id="uploadButton" mnemonicParsing="false" onAction="#onClickUploadButton" prefHeight="26.0" prefWidth="234.0" text="2. Upload" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </bottom>
+</BorderPane>

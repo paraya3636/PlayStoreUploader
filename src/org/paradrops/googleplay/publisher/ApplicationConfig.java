@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.paradrops;
+package org.paradrops.googleplay.publisher;
 
 /**
  * Contains global application configuration, which is required by all samples.
@@ -30,7 +30,7 @@ public final class ApplicationConfig {
      * {@code null} or blank, the application will log a warning. Suggested
      * format is "MyCompany-Application/1.0".
      */
-    static final String APPLICATION_NAME = "";
+    static final String APPLICATION_NAME = "org.paradrops.uploadtest";
 
     /**
      * Specify the package name of the app.
